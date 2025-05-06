@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class PowerUp : MonoBehaviour //es plantilla el abstract para otras clases.
+public abstract class PowerUp : MonoBehaviour // el abstract es plantilla en los que se basaran los hijos.
 {
-    protected string nombre;
+    protected string nombre; //usamos para que solo los hijos accedan pero otros scripts no ya que no es necesario.
     public Player player;
     // Start is called before the first frame update
     void Start()

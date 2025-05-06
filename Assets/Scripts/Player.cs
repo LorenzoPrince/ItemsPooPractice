@@ -7,7 +7,7 @@ public class Player : MonoBehaviour
 {
     // Encapsulamiento
     [SerializeField] Sprite playerRed;
-    [SerializeField] private int vida = 0;
+    [SerializeField] private int vida = 0; //por buena practica se pone el private ya que es automatico que va
     [SerializeField] private bool inmune = false;
     private SpriteRenderer sr; // para poner un render para cambiar color por ejemplo.
     public enum PlayerState {normal,fuego,estrella} // para ver el estado
